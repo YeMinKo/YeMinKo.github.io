@@ -1,0 +1,21 @@
+body {
+  background-color: bisque;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  margin: 50px 20%;
+}
+
+img {
+  width: 300px;
+}
