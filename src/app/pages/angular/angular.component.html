@@ -1,0 +1,19 @@
+<mat-card class="card" *ngFor="let project of projects">
+  <mat-card-header>
+    <mat-card-title>{{ project.title }}</mat-card-title>
+    <mat-card-subtitle>Angular</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    [src]="'assets/images/' + project.poster"
+    [alt]="project.title + ' image'"
+  />
+  <mat-card-content>
+    <p>
+      {{ project.description }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button color="primary" target="_blank" [href]="project.link">Open</a>
+  </mat-card-actions>
+</mat-card>
