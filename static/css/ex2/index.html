@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>School Registration Form</h1>
+      </header>
+      <form action="#">
+        <main>
+          <section>
+            <h2>Basic Information</h2>
+            <label for="name">Enter Your Name</label><br />
+            <input type="text" id="name" /><br />
+            <label for="phone">Enter Your Phone</label><br />
+            <input type="text" id="phone" /><br />
+            <label for="email">Enter Your Email</label><br />
+            <input type="email" id="email" />
+            <p>Gender</p>
+            <input type="radio" name="gender" id="male" checked />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+          </section>
+
+          <section>
+            <h2>Student Acccount Information</h2>
+            <label for="username">Enter Your Username</label><br />
+            <input type="text" id="username" /><br />
+            <label for="password">Enter Your Password</label><br />
+            <input type="password" id="password" /><br />
+            <label for="repassword">Re-Enter Your Password</label><br />
+            <input type="password" id="repassword" />
+
+          <section>
+            <h2>Class Information</h2>
+            <p>Choose Education Level</p>
+            <input type="radio" name="level" id="primary" checked />
+            <label for="primary">Primary School</label>
+            <input type="radio" name="level" id="high" />
+            <label for="high">High School</label>
+            <input type="radio" name="level" id="collage" />
+            <label for="collage">Collage</label>
+
+            <p>Choose Course</p>
+            <select>
+              <option value="myanmar" selected>Myanmar</option>
+              <option value="english">English</option>
+            </select>
+          </section>
+
+          <section>
+            <h2>More About You</h2>
+            <label for="short-essay"
+              >Tell us why you want to attend this class</label
+            ><br />
+            <textarea id="short-essay"></textarea>
+          </section>
+        </main>
+        <footer>
+          <button type="submit">Submit</button>
+          <button type="reset">Clear All</button>
+        </footer>
+      </form>
+    </div>
+  </body>
+</html>

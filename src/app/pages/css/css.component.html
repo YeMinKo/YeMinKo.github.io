@@ -1,1 +1,9 @@
-<p>css works!</p>
+<mat-card *ngFor="let exercise of exercises" class="card">
+  <mat-checkbox
+    color="primary"
+    [(ngModel)]="exercise.checked"
+    (change)="onCheckboxChanged()"
+    >{{ exercise.title }}</mat-checkbox
+  >
+  <a [href]="exercise.url" target="_blank" mat-button color="primary">Open</a>
+</mat-card>

@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  height: 40px;
+  font-family: "Dancing Script", cursive;
+  background-color: #642e17;
+  font-size: 40px;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+main {
+  height: 700px;
+  font-family: "Dancing Script", cursive;
+  background-image: url("./sunset.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 4em;
+}
+
+h2 {
+  margin: 0;
+  color: white;
+  font-size: 3em;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.info {
+  height: 300px;
+  background-color: #642e17;
+  padding: 50px;
+  text-align: center;
+}
+
+.hotels {
+  display: flex;
+  height: 400px;
+}
+
+.hotels > div {
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+}
+
+.hotel-1 {
+  background-image: url("./hotel-1.jpg");
+}
+
+.hotel-2 {
+  background-image: url("./hotel-2.jpg");
+}
+
+footer {
+  height: 40px;
+  background-color: #642e17;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}

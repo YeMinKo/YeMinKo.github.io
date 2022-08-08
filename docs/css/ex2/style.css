@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  height: 2em;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+textarea {
+  height: 200px;
+}
+section {
+  margin-bottom: 40px;
+}
+
+button {
+  width: 100px;
+  height: 2em;
+  margin-right: 15px;
+}
+
+button[type="submit"] {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+button[type="reset"] {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
