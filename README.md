@@ -1,3 +1,11 @@
+# GitPages Instructions
+
+- Add new exercise in associate data file
+- Build with `ng build` command
+- Copy all folders and files from `static` folder to `docs` folder
+- Copy all code inside `index.html` to `404.html`
+- Done. Git add and deploy!
+
 # GitPages
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.

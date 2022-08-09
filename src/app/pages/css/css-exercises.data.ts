@@ -16,4 +16,9 @@ export const cssExercises: CSSExercise[] = [
     url: 'https://yeminko.github.io/css/ex3',
     checked: false,
   },
+  {
+    title: 'Exercise 4',
+    url: 'https://yeminko.github.io/css/ex4',
+    checked: false,
+  },
 ];
