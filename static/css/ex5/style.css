@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-image: url("./flower.png");
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+.card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 600px;
+  width: 400px;
+  box-shadow: 2px 1px 8px 1px gray;
+  background: #c83d86;
+}
+
+header {
+  height: 200px;
+  background: url("./picture.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  border: 5px solid white;
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
+
+main {
+  margin-top: 70px;
+  padding: 0 20px;
+  font-size: 1.2em;
+}
+
+.input-field {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+input {
+  height: 3em;
+  width: 300px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button {
+  margin: 30px auto;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c83d86;
+  border-radius: 5px;
+  border: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #fbff81;
+}
+
+button > span {
+  font-size: 1.2em;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #fbff81;
+}
