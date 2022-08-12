@@ -1,13 +1,15 @@
-import { Component } from '@angular/core';
-import { StorageService } from './shared/storage.service';
+import { Component, OnInit } from '@angular/core';
+import { CssService } from './pages/css/css.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  constructor(private storageService: StorageService) {
-    storageService.initCSSExercises();
+export class AppComponent implements OnInit {
+  constructor(private cssService: CssService) {}
+
+  ngOnInit(): void {
+    this.cssService.initCSSExercises();
   }
 }

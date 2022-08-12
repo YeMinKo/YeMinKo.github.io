@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { StorageService } from 'src/app/shared/storage.service';
+import { CssService } from './css.service';
 
 export interface CSSExercise {
+  id: number;
   title: string;
   url: string;
   checked: boolean;
@@ -15,13 +16,13 @@ export interface CSSExercise {
 export class CssComponent implements OnInit {
   exercises: CSSExercise[] = [];
 
-  constructor(private storageService: StorageService) {}
+  constructor(private cssService: CssService) {}
 
   onCheckboxChanged() {
-    this.storageService.updateCSSExercises(this.exercises);
+    this.cssService.updateCSSExercises(this.exercises);
   }
 
   ngOnInit(): void {
-    this.exercises = this.storageService.getCSSExercises();
+    this.exercises = this.cssService.getCSSExercises();
   }
 }
